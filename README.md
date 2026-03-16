@@ -103,7 +103,8 @@ Future experiments may include:
 
 ---
 
-# 📁 Repository Structure
+## 📁 Repository Structure
+
 ani-voice-rebuild/
 │
 ├── README.md
