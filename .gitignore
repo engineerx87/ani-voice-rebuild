@@ -3,6 +3,11 @@ __pycache__/
 
 dataset/raw/*
 !dataset/raw/.gitkeep
+!dataset/raw/drive_imports/
+!dataset/raw/drive_imports/.gitkeep
 
 dataset/processed/wavs/*
 !dataset/processed/wavs/.gitkeep
+
+dataset/metadata/*
+!dataset/metadata/.gitkeep
