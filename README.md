@@ -342,11 +342,14 @@ Processed training clips should meet the following targets:
 
 | Property | Target |
 |--------|--------|
-| Format | WAV |
+| Format | WAV (16-bit PCM)  |
 | Sample Rate | 16kHz |
 | Channels | Mono |
 | Ideal Clip Length | 3–15 seconds |
 | Acceptable Range | 2–20 seconds |
+
+Higher sample rates and stereo audio are acceptable for raw submissions.  
+The preprocessing pipeline will normalize recordings to the required format.
 
 Clips should contain **clear speech with minimal background noise**.
 
