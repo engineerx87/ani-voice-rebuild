@@ -140,7 +140,13 @@ ani-voice-rebuild/
 │
 ├── README.md
 ├── CONTRIBUTING.md
+├── SUBMISSIONS.md
 ├── LICENSE
+├── requirements.txt
+├── .gitignore
+│
+├── .github/
+│   └── ISSUE_TEMPLATE/
 │
 ├── docs/
 │   └── dataset_format.md
@@ -151,10 +157,12 @@ ani-voice-rebuild/
 │
 └── dataset/
     ├── raw/
+    │   └── drive_imports/
     ├── processed/
     │   └── wavs/
     └── metadata/
 ```
+
 ## 🚀 Quick Start
 
 If you'd like to contribute audio clips or help experiment with the dataset, you can get started in just a few steps.
