@@ -65,30 +65,25 @@ Ultimately the project aims to produce a **high-quality voice model that can run
 ---
 
 # ⚙️ Voice Rebuild Pipeline
-Community Audio Clips
-│
-▼
-Audio Preprocessing
-(normalize, trim silence,
-segment speech)
-│
-▼
-Curated Dataset
-(16kHz mono WAV)
-│
-▼
-Model Training
-(CosyVoice / XTTS / Qwen-TTS)
-│
-▼
-Evaluation
-(naturalness, prosody,
-voice similarity)
-│
-▼
-Open Experiments & Results
+**Community Audio Clips**  
+⬇  
+**Audio Preprocessing**  
+normalize • trim silence • segment speech  
 
----
+⬇  
+**Curated Voice Dataset**  
+16kHz mono WAV  
+
+⬇  
+**Model Training**  
+CosyVoice • XTTS • Qwen-TTS  
+
+⬇  
+**Evaluation**  
+naturalness • prosody • voice similarity  
+
+⬇  
+**Open Voice Experiments**
 
 # 🤖 Models Being Evaluated
 
