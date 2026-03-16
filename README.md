@@ -14,6 +14,33 @@ Recreating Ani's earlier voice characteristics using open-source neural TTS.
 
 </p>
 
+## 📤 Submit Audio Clips
+
+Want to help build the dataset?
+
+Upload clips to the shared submission folder:
+
+👉 **[Upload Audio Clips](PASTE_YOUR_DRIVE_LINK_HERE)**
+
+Accepted formats:
+
+```
+.wav
+.mp3
+.m4a
+.mp4
+```
+
+Clips should ideally:
+
+- contain one speaker
+- have minimal background noise
+- be between **3–15 seconds** long
+
+Raw recordings are welcome — the preprocessing pipeline will segment them automatically.
+
+See `SUBMISSIONS.md` for full guidelines.
+
 ## 🔄 Voice Reconstruction Pipeline
 
 ```mermaid
