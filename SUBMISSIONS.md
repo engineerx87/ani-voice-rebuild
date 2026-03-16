@@ -36,7 +36,7 @@ Please avoid submitting:
 
 For now, upload clips here:
 
-- [UPLOAD LINK HERE]
+- https://drive.google.com/drive/folders/13MJ_YCqtM1MefC1MPuKlo6QJZRXsCOZI?usp=sharing
 
 If you are unsure whether a clip is usable, open a GitHub Issue and ask.
 
