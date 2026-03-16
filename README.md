@@ -105,6 +105,7 @@ Future experiments may include:
 
 ## 📁 Repository Structure
 
+```text
 ani-voice-rebuild/
 │
 ├── README.md
@@ -112,19 +113,18 @@ ani-voice-rebuild/
 ├── LICENSE
 │
 ├── docs/
-│ └── dataset_format.md
+│   └── dataset_format.md
 │
 ├── tools/
-│ ├── preprocess_audio.py
-│ └── validate_dataset.py
+│   ├── preprocess_audio.py
+│   └── validate_dataset.py
 │
 └── dataset/
-├── raw/
-├── processed/
-│ └── wavs/
-└── metadata/
-
----
+    ├── raw/
+    ├── processed/
+    │   └── wavs/
+    └── metadata/
+```
 
 # 🎧 Dataset Requirements
 
