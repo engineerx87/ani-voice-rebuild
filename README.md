@@ -64,6 +64,33 @@ Ultimately the project aims to produce a **high-quality voice model that can run
 
 ---
 
+## 📊 Dataset Progress
+
+This project relies on community contributions to build a clean speech dataset for experimentation.
+
+Current progress:
+
+| Metric | Value |
+|------|------|
+| Clips collected | 0 |
+| Total audio duration | 0 minutes |
+| Target dataset size | 60+ minutes |
+
+Why 60 minutes?
+
+Modern neural TTS models can begin producing convincing voice characteristics with relatively small datasets. A curated dataset of **30–60 minutes of clean speech** can already enable meaningful experiments.
+
+Even small contributions help. A few clips from many contributors can quickly add up to a useful dataset.
+
+If you'd like to help, you can contribute by:
+
+- submitting clean voice clips
+- helping preprocess recordings
+- validating dataset entries
+- experimenting with model training
+
+Dataset contributions will be tracked here as the project grows.
+
 # ⚙️ Voice Rebuild Pipeline
 **Community Audio Clips**  
 ⬇  
