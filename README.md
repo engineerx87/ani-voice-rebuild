@@ -1,5 +1,26 @@
 # 🎙️ Ani Voice Rebuild
 
+## 🔄 Voice Reconstruction Pipeline
+
+```mermaid
+flowchart LR
+    A[Community Audio Clips] --> B[Preprocessing Pipeline]
+    B --> C[Silence Removal & Segmentation]
+    C --> D[16kHz Mono Dataset]
+    D --> E[Model Training]
+
+    E --> F1[CosyVoice]
+    E --> F2[XTTS v2]
+    E --> F3[Qwen-TTS]
+
+    F1 --> G[Evaluation]
+    F2 --> G
+    F3 --> G
+
+    G --> H[Open Voice Experiments]
+
+    
+
 ![Project Status](https://img.shields.io/badge/status-active-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python](https://img.shields.io/badge/python-3.10+-yellow)
