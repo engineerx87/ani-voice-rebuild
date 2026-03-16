@@ -231,6 +231,7 @@ Then install the requirements:
 ```bash
 pip install -r requirements.txt
 ```
+---
 
 ### 3️⃣ Add raw audio clips
 
@@ -254,6 +255,8 @@ Accepted formats include:
 ```
 
 The preprocessing script will automatically normalize and convert recordings into training clips.
+
+---
 
 ### 4️⃣ Run the preprocessing pipeline
 
