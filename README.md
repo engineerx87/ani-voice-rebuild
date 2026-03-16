@@ -234,10 +234,14 @@ pip install -r requirements.txt
 
 ### 3️⃣ Add raw audio clips
 
-Place raw recordings inside:
+Community submissions are collected through the shared upload folder described in `SUBMISSIONS.md`.
+
+Contributors **should upload clips to the shared submission folder**, not directly to this repository.
+
+Maintainers periodically download those submissions and place them into:
 
 ```
-dataset/raw/
+dataset/raw/drive_imports/
 ```
 
 Accepted formats include:
@@ -249,9 +253,7 @@ Accepted formats include:
 .mp4
 ```
 
-The preprocessing script will automatically convert them.
-
----
+The preprocessing script will automatically normalize and convert recordings into training clips.
 
 ### 4️⃣ Run the preprocessing pipeline
 
