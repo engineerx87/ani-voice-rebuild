@@ -6,9 +6,10 @@ Recreating Ani's earlier voice characteristics using open-source neural TTS.
 ![Project Status](https://img.shields.io/badge/status-active-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python](https://img.shields.io/badge/python-3.10+-yellow)
-[![CI](https://github.com/engineerx87/ani-voice-rebuild/actions/workflows/ci.yml/badge.svg)](https://github.com/engineerx87/ani-voice-rebuild/actions/workflows/ci.yml)
+[![CI](https://github.com/engineerx87/ani-voice-rebuild/actions/workflows/ci.yml/badge.svg)](https://github.com/engineerx87/ani-voice-rebuild/actions)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange)
 ![Dataset Target](https://img.shields.io/badge/dataset%20target-60%20minutes-lightgrey)
+![Last Commit](https://img.shields.io/github/last-commit/engineerx87/ani-voice-rebuild?style=flat-square)
 <p align="center">
 
 ⭐ **If you find this project interesting, please consider starring the repository to help others discover it.**
