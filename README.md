@@ -32,6 +32,7 @@ E --> J[Qwen-TTS]
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python](https://img.shields.io/badge/python-3.10+-yellow)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange)
+![Dataset Target](https://img.shields.io/badge/dataset%20target-60%20minutes-lightgrey)
 
 Community effort exploring whether modern **open-source neural TTS models** can recreate earlier voice characteristics of **Ani**, the voice used in the Grok AI companion experience.
 
