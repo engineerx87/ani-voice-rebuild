@@ -142,22 +142,26 @@ Clips should contain **clear speech with minimal background noise**.
 
 ---
 
-# 📦 Example Dataset Layout
+## 📦 Example Dataset Layout
+
+```text
 dataset/
-processed/
-wavs/
-ani_00001.wav
-ani_00002.wav
-ani_00003.wav
-metadata/
-metadata.csv
+├── processed/
+│   └── wavs/
+│       ├── ani_00001.wav
+│       ├── ani_00002.wav
+│       └── ani_00003.wav
+└── metadata/
+    └── metadata.csv
+```
 
 Example metadata entry:
+
+```text
 ani_00001|Hello, how are you today?
 ani_00002|That sounds like a fun idea.
 ani_00003|Let's try building it together.
-
----
+```
 
 # 🛠 Preprocessing Tools
 
