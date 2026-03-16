@@ -3,21 +3,26 @@
 ## 🔄 Voice Reconstruction Pipeline
 
 ```mermaid
-flowchart LR
-    A[Community Audio Clips] --> B[Preprocessing Pipeline]
-    B --> C[Silence Removal & Segmentation]
-    C --> D[16kHz Mono Dataset]
-    D --> E[Model Training]
+flowchart TD
 
-    E --> F1[CosyVoice]
-    E --> F2[XTTS v2]
-    E --> F3[Qwen-TTS]
+A[Community Audio Clips]
+B[Audio Preprocessing]
+C[Speech Segmentation]
+D[Curated 16kHz Voice Dataset]
+E[Model Training]
+F[Evaluation & Comparison]
+G[Open Voice Experiments]
 
-    F1 --> G[Evaluation]
-    F2 --> G
-    F3 --> G
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
 
-    G --> H[Open Voice Experiments]
+E --> H[CosyVoice]
+E --> I[XTTS v2]
+E --> J[Qwen-TTS]
 ```
 
 ![Project Status](https://img.shields.io/badge/status-active-brightgreen)
