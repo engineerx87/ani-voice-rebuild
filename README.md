@@ -18,8 +18,7 @@ flowchart LR
     F3 --> G
 
     G --> H[Open Voice Experiments]
-
-    
+```
 
 ![Project Status](https://img.shields.io/badge/status-active-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
