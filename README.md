@@ -298,23 +298,24 @@ ani_00002|That sounds like a fun idea.
 ani_00003|Let's try building it together.
 ```
 
-# 🛠 Preprocessing Tools
+## 🛠 Preprocessing Tools
 
 The repository includes tools for converting messy recordings into training clips.
 
 The preprocessing script automatically:
 
-- normalizes volume
-- converts audio to **16kHz mono**
-- trims silence
-- splits recordings into speech segments
+• normalizes audio volume  
+• converts audio to **16kHz mono WAV**  
+• trims silence  
+• splits recordings into speech segments  
 
 Example output:
+
+```text
 ani_00001.wav
 ani_00002.wav
 ani_00003.wav
-
----
+```
 
 # 🤝 Contributing
 
