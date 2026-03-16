@@ -8,6 +8,11 @@ Recreating Ani's earlier voice characteristics using open-source neural TTS.
 ![Python](https://img.shields.io/badge/python-3.10+-yellow)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange)
 ![Dataset Target](https://img.shields.io/badge/dataset%20target-60%20minutes-lightgrey)
+<p align="center">
+
+⭐ **If you find this project interesting, please consider starring the repository to help others discover it.**
+
+</p>
 
 ## 🔄 Voice Reconstruction Pipeline
 
