@@ -1,4 +1,7 @@
 # 🎙️ Ani Voice Rebuild
+<p align="center">
+Recreating Ani's earlier voice characteristics using open-source neural TTS.
+</p>
 
 ## 🔄 Voice Reconstruction Pipeline
 
