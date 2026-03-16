@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+
+dataset/raw/*
+!dataset/raw/.gitkeep
+
+dataset/processed/wavs/*
+!dataset/processed/wavs/.gitkeep
