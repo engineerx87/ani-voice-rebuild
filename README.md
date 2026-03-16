@@ -51,7 +51,7 @@ Want to help build the dataset?
 
 Upload clips to the shared submission folder:
 
-👉 **[Upload Audio Clips](PASTE_YOUR_DRIVE_LINK_HERE)**
+👉 **[Upload Audio Clips](https://drive.google.com/drive/folders/13MJ_YCqtM1MefC1MPuKlo6QJZRXsCOZI?usp=sharing)**
 
 Accepted formats:
 
