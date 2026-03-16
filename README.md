@@ -125,6 +125,141 @@ ani-voice-rebuild/
     │   └── wavs/
     └── metadata/
 ```
+## 🚀 Quick Start
+
+If you'd like to contribute audio clips or help experiment with the dataset, you can get started in just a few steps.
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/engineerx87/ani-voice-rebuild.git
+cd ani-voice-rebuild
+```
+
+### 2️⃣ Install dependencies
+
+Create a Python environment and install required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+You will also need **FFmpeg** installed for audio processing.
+
+Linux:
+
+```bash
+sudo apt install ffmpeg
+```
+
+Mac:
+
+```bash
+brew install ffmpeg
+```
+
+Windows:
+
+Download from:  
+https://ffmpeg.org/download.html
+
+---
+
+### (Optional) Create a Python virtual environment
+
+It is recommended to create a virtual environment before installing dependencies.
+
+Linux / macOS:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Windows:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+Then install the requirements:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Add raw audio clips
+
+Place raw recordings inside:
+
+```
+dataset/raw/
+```
+
+Accepted formats include:
+
+```
+.wav
+.mp3
+.m4a
+.mp4
+```
+
+The preprocessing script will automatically convert them.
+
+---
+
+### 4️⃣ Run the preprocessing pipeline
+
+This will:
+
+• normalize volume  
+• remove silence  
+• segment speech  
+• convert to **16kHz mono WAV**
+
+```bash
+python tools/preprocess_audio.py
+```
+
+Processed clips will appear in:
+
+```
+dataset/processed/wavs/
+```
+
+---
+
+### 5️⃣ Validate the dataset
+
+You can check that clips meet the expected format:
+
+```bash
+python tools/validate_dataset.py
+```
+
+This verifies:
+
+• sample rate  
+• channel count  
+• clip length  
+
+---
+
+### 6️⃣ Submit contributions
+
+Once you have valid clips:
+
+1. Commit your changes
+2. Push to your fork
+3. Open a Pull Request
+
+Or open an issue if you'd like help with preprocessing or dataset formatting.
+
+---
+
+Even small contributions help — a few clean clips from several people can quickly build a useful dataset for experimentation.
 
 # 🎧 Dataset Requirements
 
