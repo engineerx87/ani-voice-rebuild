@@ -434,6 +434,7 @@ Help experiment with:
 - CosyVoice training
 - XTTS fine-tuning
 - Qwen-TTS experiments
+- Fish-Speech
 
 ---
 
