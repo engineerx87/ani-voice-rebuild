@@ -39,7 +39,7 @@ F --> G
 E --> H[CosyVoice]
 E --> I[XTTS v2]
 E --> J[Qwen-TTS]
-E --> K[fish-speech]
+E --> K[Fish-Speech]
 ```
 
 Community effort exploring whether modern **open-source neural TTS models** can recreate earlier voice characteristics of **Ani**, the voice used in the Grok AI companion experience.
@@ -141,7 +141,7 @@ normalize • trim silence • segment speech
 
 ⬇  
 **Model Training**  
-CosyVoice • XTTS • Qwen-TTS  
+CosyVoice • XTTS • Qwen-TTS • Fish-Speech
 
 ⬇  
 **Evaluation**  
@@ -159,6 +159,7 @@ Initial experimentation will focus on modern open-source speech synthesis models
 | **CosyVoice** | High-quality expressive speech |
 | **XTTS v2** | Multilingual neural voice cloning |
 | **Qwen-TTS** | Transformer-based speech generation |
+| **Fish-Speech** | LLM-style expressive voice cloning|
 
 Future experiments may include:
 
