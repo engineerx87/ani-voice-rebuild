@@ -39,6 +39,7 @@ F --> G
 E --> H[CosyVoice]
 E --> I[XTTS v2]
 E --> J[Qwen-TTS]
+E --> K[fish-speech]
 ```
 
 Community effort exploring whether modern **open-source neural TTS models** can recreate earlier voice characteristics of **Ani**, the voice used in the Grok AI companion experience.
